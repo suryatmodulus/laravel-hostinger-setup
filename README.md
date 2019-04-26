@@ -4,7 +4,7 @@ A guide to setup Laravel 5.8 on hostinger shared hosting
 
 # Steps:
 
-1. create a .htaccess file in your root directory and copy the following content
+1. create a .htaccess file in your root directory of your laravel application and copy the following content to it.
 ```
 <IfModule mod_rewrite.c>
   RewriteEngine on
