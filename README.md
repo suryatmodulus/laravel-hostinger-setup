@@ -15,7 +15,7 @@ A guide to setup Laravel 5.8 on hostinger shared hosting
 2. create an application in hostinger
 3. Enable ssh access
 4. login via ssh
-5. cd public_html && rm default.php
+5. run --> `cd public_html && rm default.php`
 6. copy entire content of your application including hidden files into this public_html folder
 7. Set permissions to cache and storage folder by running following commands
 ```
