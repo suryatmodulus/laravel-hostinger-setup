@@ -28,7 +28,7 @@ rm -rf public/storage
 ```
 ln -s $HOME/domains/<domain_name>/storage/app/public $HOME/domains/<domain_name>/public/storage
 ```
-**Replace <domain_name> with the domain name of your website ex : beeware.com**  
+**Replace <domain_name> with the domain name of your website (example : beeware.com)**  
 
 # Steps for Deployment with Github :
 
@@ -46,8 +46,7 @@ ln -s $HOME/domains/<domain_name>/storage/app/public $HOME/domains/<domain_name>
 4. Create an application in hostinger
 5. Enable ssh access
 6. Login via ssh and run `rm public_html/default.php`
-7. Run `git clone your-repository-link public_html`
-      ex: `git clone https://github.com/suryatmodulus/laravel-hostinger-setup.git public_html`
+7. Run `git clone your-repository-link public_html` (example: `git clone https://github.com/suryatmodulus/laravel-hostinger-setup.git public_html`)
 8. Set permissions for cache and storage folder by running following commands
 ```
 chmod -R 777 bootstrap/cache && chmod -R 777 storage
