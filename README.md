@@ -59,4 +59,4 @@ rm -rf public/storage
 ```
 ln -s $HOME/domains/<domain_name>/storage/app/public $HOME/domains/<domain_name>/public/storage
 ```
-**Replace <domain_name> with the domain name of your website ex : beeware.com**
+**Replace <domain_name> with the domain name of your website (ex : beeware.com)**
