@@ -17,7 +17,7 @@ A guide to setup Laravel 5.8 on hostinger shared hosting
 4. login via ssh
 5. run --> `cd public_html && rm default.php`
 6. copy all the files and folders of your laravel application (including hidden) into this public_html folder
-7. Set permissions to cache and storage folder by running following commands
+7. Set permissions for cache and storage folder by running following commands
 ```
 chmod -R 777 bootstrap/cache && chmod -R 777 storage
 ````
