@@ -17,5 +17,16 @@ A guide to setup Laravel 5.8 on hostinger shared hosting
 4. login via ssh
 5. cd public_html && rm default.php
 6. copy entire content of your application including hidden files into this public_html folder
-7. run cmd --> chmod -R 777 bootstrap/cache
-8. run cmd --> chmod -R 777 storage
+7. Set permissions to cache and storage folder by running following commands
+```
+chmod -R 777 bootstrap/cache && chmod -R 777 storage
+````
+9. Remove the symlink storage folder in public/ by running
+```
+rm -rf public/storage
+```
+10. Manually create symlink for storage folder (because Hostinger disables symlink() in PHP)
+```
+ln -s $HOME/domains/<domain_name>/storage/app/public $HOME/domains/<domain_name>/public/storage
+```
+**Replace <domain_name> with the domain name of your website Ex : wappz.in**  
