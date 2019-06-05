@@ -26,7 +26,7 @@ rm -rf public/storage
 ```
 8. Manually create symlink for storage folder (because Hostinger disables symlink() in PHP)
 ```
-ln -s $HOME/domains/<domain_name>/storage/app/public $HOME/domains/<domain_name>/public/storage
+ln -s $HOME/domains/<domain_name>/public_html/storage/app/public $HOME/domains/<domain_name>/public_html/public/storage
 ```
 **Replace <domain_name> with the domain name of your website (example : beeware.com)**  
 
@@ -57,6 +57,6 @@ rm -rf public/storage
 ```
 10. Manually create symlink for storage folder (because Hostinger disables symlink() in PHP)
 ```
-ln -s $HOME/domains/<domain_name>/storage/app/public $HOME/domains/<domain_name>/public/storage
+ln -s $HOME/domains/<domain_name>/public_html/storage/app/public $HOME/domains/<domain_name>/public_html/public/storage
 ```
 **Replace <domain_name> with the domain name of your website (ex : beeware.com)**
